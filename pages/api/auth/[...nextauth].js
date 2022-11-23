@@ -82,6 +82,9 @@ export const authOptions = {
     },
   },
   secret: "TOP_SECRET",
+  pages: {
+    signIn: "/auth/login",
+  },
 }
 
 export default NextAuth(authOptions)
